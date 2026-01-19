@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "Oceano";
+    src: url(/fontes/oceanography);
+}
+
+:root{
+     --cor0:#0090DB;
+     --cor1:#0006DB;
+     --cor2:#004BDB;
+     --cor3:#35D7DB;
+     --cor4:#4401DC;
+     --cor5:#8AA6DB;
+
+     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+     --fonte-destaque: "Bebas Nue", sans-serif;
+     --fonte-oceano: "Oceano", sans-serif;
+}
+
+body{
+    background-color: var(--cor5);
+    font-family: var(--fonte-padrão);
+}
+
+header{
+    background-image: linear-gradient(var(--cor5), var(--cor2));
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
