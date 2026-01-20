@@ -2,10 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@font-face {
-    font-family: "Oceano";
-    src: url(/fontes/oceanography);
-}
+
 
 :root{
      --cor0:#0090DB;
@@ -17,12 +14,12 @@
 
      --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
      --fonte-destaque: "Bebas Nue", sans-serif;
-     --fonte-oceano: "Oceano", sans-serif;
+     --fonte-oceano: 
 }
 
 body{
     background-color: var(--cor5);
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-oceano);
 }
 
 header{
