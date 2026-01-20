@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
-    font-family:"Agua";
-    src: url(/fontes/Agua\ de\ Jamaica.ttf) format(truetype);
+    font-family:'Agua';
+    src: url('/fontes/Agua\ de\ Jamaica.ttf') format('truetype');
     font-weight: normal;
 }
 
@@ -18,16 +18,50 @@
 
      --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
      --fonte-destaque: "Bebas Neue", sans-serif;
-     --fonte-oceano: "Agua", sans-serif;
+     --fonte-oceano: 'Agua', sans-serif;
 }
 
 body{
     background-color: var(--cor5);
-    font-family:var(--fonte-oceano);
+    font-family:var(--fonte-padrão);
 }
 
 header{
-    background-image: linear-gradient(var(--cor5), var(--cor2));
+    background-image: linear-gradient(var(--cor1), var(--cor4));
+    min-height: 150px;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    font-family: var(--fonte-destaque);
+    color: white;
+}
+
+header h1{
+    padding-bottom: 15px;
+}
+
+header p{
+    font-weight: normal;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+}
+
+nav{
+    background-color:var(--cor4) ;
+    padding: 10px;
+    box-shadow: 0px 7px 7px  rgba(0, 0, 0, 0.255)
+
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cor3);
+    padding-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: var(--cor5);
 }
 
 *{
