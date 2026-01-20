@@ -2,7 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
+@font-face {
+    font-family:"Agua";
+    src: url(/fontes/Agua\ de\ Jamaica.ttf) format(truetype);
+    font-weight: normal;
+}
 
 :root{
      --cor0:#0090DB;
@@ -13,13 +17,13 @@
      --cor5:#8AA6DB;
 
      --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
-     --fonte-destaque: "Bebas Nue", sans-serif;
-     --fonte-oceano: 
+     --fonte-destaque: "Bebas Neue", sans-serif;
+     --fonte-oceano: "Agua", sans-serif;
 }
 
 body{
     background-color: var(--cor5);
-    font-family: var(--fonte-oceano);
+    font-family:var(--fonte-oceano);
 }
 
 header{
@@ -30,4 +34,3 @@ header{
     margin: 0px;
     padding: 0px;
 }
-
