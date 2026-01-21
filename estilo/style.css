@@ -41,12 +41,14 @@ header{
 
 header h1{
     padding-bottom: 15px;
+    margin: auto;
 }
 
 header p{
     font-weight: normal;
     font-size: 1.2em;
     padding-bottom: 15px;
+    margin: auto;
 }
 
 nav{
@@ -93,8 +95,45 @@ main p{
     font-size: 1em;
     line-height: 30px;
     margin-bottom: 10px;
+    text-indent: 30px;
+    margin: auto;
+    text-align: justify;
 }
 
 main img{
-    margin-bottom: 10px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+div.video{
+    background-color: var(--cor2);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+div > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+footer{
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
 }
