@@ -101,11 +101,35 @@ main p{
 }
 
 main img{
-    margin: auto;
-    display: block;
-    padding: 20px;
+   width: 98%;
+   margin: auto;
+   
 }
 
+aside{
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+aside > h3{
+    background-color: var(--cor4);
+    color: var(--cor3);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px ;
+ }
+
+
+aside ul{
+    columns: 1;
+    list-style-position: inside;
+    text-align:justify ;
+    margin-bottom: 20px;
+    color: white;
+    line-height: 30px;
+    
+}
 div.video{
     background-color: var(--cor2);
     margin: 0px -20px 30px -20px;
@@ -120,6 +144,7 @@ div > iframe{
     height: 90%;
     width: 90%;
 }
+
 
 footer{
     background-color: var(--cor1);
