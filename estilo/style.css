@@ -67,7 +67,12 @@ nav a{
 
 nav > a:hover{
     text-decoration: underline;
-    color: var(--cor5);
+    color: var(--cor4);
+    background-color: var(--cor0);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 main{
